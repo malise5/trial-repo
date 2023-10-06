@@ -76,3 +76,30 @@ git push -u origin main
 The `-u` flag sets the upstream branch to master, so future pushes can be made with just `git push`.
 
 Now, your local repository is successfully pushed to the remote repository, and both repositories are in sync. The README.md file in the remote repository can be updated to explain the process of creating this project.
+
+## Step 10: Running the delete_python_files.sh Script
+
+To run the `delete_python_files.sh` script and delete Python files, follow these steps:
+
+1. Open a terminal.
+2. Navigate to the directory where the `delete_python_files.sh` script is located.
+
+    ```bash
+    cd /path/to/directory
+    ```
+
+3. Make the script executable if needed (one-time step):
+
+    ```bash
+    chmod +x delete_python_files.sh
+    ```
+
+4. Run the script:
+
+    ```bash
+    ./delete_python_files.sh
+    ```
+
+    This will execute the script and delete all Python files (files with a `.py` extension) in the current directory.
+
+Make sure to replace `/path/to/directory` with the actual path to the directory containing the `delete_python_files.sh` script.
